@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+body {
+    height: 900px;
+    place-items: center;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    border: 1px solid rgb(55, 54, 54);
+}
+
+.film {
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.year {
+    text-align: left;
+    padding: 5px 20px;
+}
+
+th {
+    border-color: #252525;
+    background-color: #1C1C1C;
+    border: 1px solid rgb(55, 54, 54);
+}
+
+td {
+    background-image: linear-gradient(to top, #252525,#403f3f);
+    padding: 30px 20px;
+    border-color: #0c0c0c;
+    border: 1px solid rgb(55, 54, 54);
+    
+}
+
+.sub {
+    font-size: medium;
+    color: #676666;
+}
+
+.movie {
+    font-size: larger;
+    font-style: normal;
+}
+
+.movieyear {
+    font-size: medium;
+    color: #676666;
+}
